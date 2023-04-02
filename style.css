@@ -1,8 +1,7 @@
-/* Earthtone color palette */
 :root {
   --brown: #6d4c41;
   --gray: #757575;
-  --white: #15006d;
+  --white: #748770;
   --black: #212121;
 }
 
@@ -16,20 +15,20 @@ body {
 }
 
 a {
-  color: var(--brown);
+  color: var(--grey);
   text-decoration: none;
 }
 
 /* Header styles */
 header {
-  background-color: var(--gray);
+  background-color: var(--brown);
   padding: 20px;
 }
 
 header h1 {
   margin: 0;
   font-size: 2rem;
-  color: var(--white);
+  color: var(--black);
 }
 
 nav {
@@ -42,38 +41,4 @@ nav ul {
   padding: 0;
   display: flex;
   justify-content: center;
-}
-
-nav li {
-  margin-right: 10px;
-}
-
-nav li:last-child {
-  margin-right: 0;
-}
-
-nav a {
-  display: block;
-  padding: 5px 10px;
-  color: var(--white);
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
-}
-
-nav a:hover {
-  background-color: var(--brown);
-}
-
-/* Main content styles */
-main {
-  padding: 20px;
-}
-
-/* Footer styles */
-footer {
-  background-color: var(--gray);
-  padding: 10px;
-  text-align: center;
-  color: var(--white);
-  font-size: 0.8rem;
 }
