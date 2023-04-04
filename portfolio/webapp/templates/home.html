@@ -1,11 +1,12 @@
-{% load static "style.css" %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'style.css' %}">
 <!DOCTYPE html>
 <html>
 <head>
         <title>Oskar Torgersrud</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <img src="{% load static 'lex.jpg' %}">
+        
 </head>
 <body>
         <div>
@@ -22,8 +23,9 @@
 
         <main>
           <h2>About this page</h2>
-	  <img src="resources/lex.jpg" alt="nice foto of lex">
+
           <p>Yes i made the frontend with chatGPT sue me.</p>
+          <img src="{% static 'lex.jpg' %}">
                 
         </main>
 
